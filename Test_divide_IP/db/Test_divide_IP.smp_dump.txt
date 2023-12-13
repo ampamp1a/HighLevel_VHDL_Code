@@ -1,0 +1,6 @@
+
+State Machine - |Test_divide_IP|state
+Name state.output_result state.wait_time state.read_data 
+state.read_data 0 0 0 
+state.wait_time 0 1 1 
+state.output_result 1 0 1 

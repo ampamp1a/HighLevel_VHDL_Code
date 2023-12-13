@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Nov 06 16:19:15 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Mini_project_Ball
+Top-level Entity Name : Mini_project_Ball
+Family : MAX 10
+Total logic elements : 1,085
+    Total combinational functions : 979
+    Dedicated logic registers : 313
+Total registers : 313
+Total pins : 27
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 12
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

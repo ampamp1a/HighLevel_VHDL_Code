@@ -1,0 +1,6 @@
+
+State Machine - |spi_controller|r_st_present
+Name r_st_present.ST_END r_st_present.ST_TX_RX r_st_present.ST_RESET 
+r_st_present.ST_RESET 0 0 0 
+r_st_present.ST_TX_RX 0 1 1 
+r_st_present.ST_END 1 0 1 

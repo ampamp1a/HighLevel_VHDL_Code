@@ -1,0 +1,48 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Basic_VGA is
+	port(
+			clock		:in std_logic;
+			resrt		:in std_logic;
+			VGA_HS	:out std_logic;
+			VGA_VS	:out std_logic;
+			blank		:out std_logic;
+			X			:out std_logic_vactor(9 downto 0);
+			Y			:out std_logic)vector(8 downto 0);
+	);
+end;
+
+architecture MAX_10 of Basic_VGA is
+	signal p_clock :std_logic;
+begin
+	process(p_clock, reset) is
+		variable H_count		:integer range 0 to 800;
+		variable V_count 		:integer range 0 to 525;
+	begin
+		if(reset ='1') then
+			H_count :=0;
+			V_count :=0;
+			VGA_HS  <='1';
+			VGA_VS  <='1';
+			blank   <='0';
+		elsif(p_clock'event and p_clock ='1') then
+			if (H_count >= 0 and H_count <= 639 and V_count >=0 and V_count <= 479) then
+				X <= std_logic_vector(to_unsigned(H_count, 10));
+				Y <= std_logic_vector(to_unsigned(V_count, 9));
+				blank <= '1';	--do not blank the screen when not in range
+			else
+				black <= '0';  --blank the screen when not in range
+		end if;
+		
+				
+			
+			
+			
+			
+			
+			
+			
+			
+		

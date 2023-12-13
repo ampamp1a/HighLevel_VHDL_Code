@@ -1,0 +1,333 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ascii_sign_digit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ascii_sign_digit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ascii_sign_digit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ascii_sign_digit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ascii_sign_digit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ascii_sign_digit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ascii_sign_digit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ascii_sign_digit[7]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[8]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[9]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[10]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_digit_0[11]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_seg_digit_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_i",
+					"strict" : false
+				},
+				{
+					"name" : "data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "rst_i",
+					"strict" : false
+				},
+				{
+					"name" : "data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

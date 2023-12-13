@@ -1,0 +1,25 @@
+
+State Machine - |graph|state3
+Name state3.s5 state3.S4 state3.S3 state3.S2 state3.S1 state3.S0 
+state3.S0 0 0 0 0 0 0 
+state3.S1 0 0 0 0 1 1 
+state3.S2 0 0 0 1 0 1 
+state3.S3 0 0 1 0 0 1 
+state3.S4 0 1 0 0 0 1 
+state3.s5 1 0 0 0 0 1 
+
+State Machine - |graph|state2
+Name state2.y4 state2.y3 state2.y2 state2.y1 
+state2.y1 0 0 0 0 
+state2.y2 0 0 1 1 
+state2.y3 0 1 0 1 
+state2.y4 1 0 0 1 
+
+State Machine - |graph|state
+Name state.s5 state.S4 state.S3 state.S2 state.S1 state.S0 
+state.S0 0 0 0 0 0 0 
+state.S1 0 0 0 0 1 1 
+state.S2 0 0 0 1 0 1 
+state.S3 0 0 1 0 0 1 
+state.S4 0 1 0 0 0 1 
+state.s5 1 0 0 0 0 1 

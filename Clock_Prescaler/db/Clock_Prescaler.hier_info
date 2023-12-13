@@ -1,0 +1,103 @@
+|Clock_Prescaler
+Clk_in => clock_scaler:clock_scaler.clk_in
+Enable => clock_scaler:clock_scaler.enable
+Clk_Selector[0] => clock_multiplexer:clock_multiplexer.Clk_selector[0]
+Clk_Selector[1] => clock_multiplexer:clock_multiplexer.Clk_selector[1]
+Clk_Out << clock_multiplexer:clock_multiplexer.Clk_out
+
+
+|Clock_Prescaler|clock_scaler:clock_scaler
+clk_in => Toggle4.CLK
+clk_in => Toggle3.CLK
+clk_in => Toggle2.CLK
+clk_in => Toggle1.CLK
+clk_in => counter_value1[0].CLK
+clk_in => counter_value1[1].CLK
+clk_in => counter_value1[2].CLK
+clk_in => counter_value1[3].CLK
+clk_in => counter_value1[4].CLK
+clk_in => counter_value1[5].CLK
+clk_in => counter_value1[6].CLK
+clk_in => counter_value1[7].CLK
+clk_in => counter_value1[8].CLK
+clk_in => counter_value1[9].CLK
+clk_in => counter_value1[10].CLK
+clk_in => counter_value1[11].CLK
+clk_in => counter_value1[12].CLK
+clk_in => counter_value1[13].CLK
+clk_in => counter_value1[14].CLK
+clk_in => counter_value1[15].CLK
+clk_in => counter_value1[16].CLK
+clk_in => counter_value1[17].CLK
+clk_in => counter_value1[18].CLK
+clk_in => counter_value1[19].CLK
+clk_in => counter_value1[20].CLK
+clk_in => counter_value1[21].CLK
+clk_in => counter_value1[22].CLK
+clk_in => counter_value1[23].CLK
+clk_in => counter_value1[24].CLK
+clk_in => counter_value1[25].CLK
+clk_in => counter_value1[26].CLK
+clk_in => counter_value1[27].CLK
+clk_in => counter_value1[28].CLK
+clk_in => counter_value1[29].CLK
+clk_in => counter_value1[30].CLK
+clk_in => counter_value1[31].CLK
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => counter_value1.OUTPUTSELECT
+enable => Toggle1.ENA
+enable => Toggle2.ENA
+enable => Toggle3.ENA
+enable => Toggle4.ENA
+clk_out_1 <= Toggle1.DB_MAX_OUTPUT_PORT_TYPE
+clk_out_2 <= Toggle2.DB_MAX_OUTPUT_PORT_TYPE
+clk_out_3 <= Toggle3.DB_MAX_OUTPUT_PORT_TYPE
+clk_out_4 <= Toggle4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Clock_Prescaler|clock_multiplexer:clock_multiplexer
+clk_out_1 => Clk_out.DATAB
+clk_out_2 => Clk_out.DATAB
+clk_out_3 => Clk_out.DATAB
+clk_out_4 => Clk_out.DATAA
+Clk_selector[0] => Equal0.IN1
+Clk_selector[0] => Equal1.IN1
+Clk_selector[0] => Equal2.IN0
+Clk_selector[0] => Equal3.IN1
+Clk_selector[1] => Equal0.IN0
+Clk_selector[1] => Equal1.IN0
+Clk_selector[1] => Equal2.IN1
+Clk_selector[1] => Equal3.IN0
+Clk_out <= Clk_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

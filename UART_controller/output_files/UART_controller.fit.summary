@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Sep 08 08:46:34 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : UART_controller
+Top-level Entity Name : UART_controller
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 104 / 49,760 ( < 1 % )
+    Total combinational functions : 88 / 49,760 ( < 1 % )
+    Dedicated logic registers : 54 / 49,760 ( < 1 % )
+Total registers : 54
+Total pins : 12 / 360 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 64 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

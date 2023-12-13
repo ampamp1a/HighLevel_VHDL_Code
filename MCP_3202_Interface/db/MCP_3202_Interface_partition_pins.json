@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DONE",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RDATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_MOSI",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_SCK",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_SS_N",
+					"strict" : false
+				},
+				{
+					"name" : "START",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST_N",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_MISO",
+					"strict" : false
+				},
+				{
+					"name" : "S_CH",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

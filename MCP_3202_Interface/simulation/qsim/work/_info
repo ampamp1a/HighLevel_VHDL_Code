@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/all/3rdyear/term1/High level Design/VHDL_Code/MCP_3202_Interface/simulation/qsim
+Ehard_block
+Z1 w1695913697
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
+!i122 62
+R0
+Z8 8MCP_3202_Interface.vho
+Z9 FMCP_3202_Interface.vho
+l0
+L35 1
+Vhj[i;a0dD85B`o1JPT^cg2
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1695913699
+!i10b 1
+Z12 !s108 1695913698.000000
+Z13 !s90 -work|work|MCP_3202_Interface.vho|
+Z14 !s107 MCP_3202_Interface.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 hj[i;a0dD85B`o1JPT^cg2
+!i122 62
+l76
+L54 28
+Va5ClDYec`9chO`Ne0M1NL2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emcp_3202_interface
+R1
+R3
+R7
+R2
+Z17 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R4
+R5
+R6
+Z18 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 62
+R0
+R8
+R9
+l0
+L91 1
+VWYQi1C^`j<F=6Z;Ja:_`o2
+!s100 j6>EME[;dKaNVTJJ6mkM81
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 18 mcp_3202_interface 0 22 WYQi1C^`j<F=6Z;Ja:_`o2
+!i122 62
+l465
+L132 5389
+V<zXSX?Xe_AEWdIKYb2hgc2
+!s100 62?N;cC6[=o3@YAiO21eX3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emcp_3202_interface_vhd_vec_tst
+Z19 w1695913696
+R5
+R6
+!i122 63
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+Vo72cEP];a4KWNNRzgD_An1
+!s100 3T2VaM9O[ceFOfaR9R]7W1
+R10
+32
+R11
+!i10b 1
+Z22 !s108 1695913699.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Amcp_3202_interface_arch
+R5
+R6
+Z25 DEx4 work 30 mcp_3202_interface_vhd_vec_tst 0 22 o72cEP];a4KWNNRzgD_An1
+!i122 63
+l63
+Z26 L34 123
+Z27 Vz[HnTiC?ChhQ1Rm<Kn;S81
+Z28 !s100 >1_gf_7aR9afcefEi^0SK3
+R10
+32
+R11
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R15
+R16

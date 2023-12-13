@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/all/3rdyear/term1/High level Design/VHDL_Code/increment_counter_4_bit/simulation/qsim
+Ehard_block
+Z1 w1689323332
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
+!i122 4
+R0
+Z8 8increment_counter_4_bit.vho
+Z9 Fincrement_counter_4_bit.vho
+l0
+L35 1
+Vhj[i;a0dD85B`o1JPT^cg2
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1689323333
+!i10b 1
+Z12 !s108 1689323333.000000
+Z13 !s90 -work|work|increment_counter_4_bit.vho|
+Z14 !s107 increment_counter_4_bit.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 hj[i;a0dD85B`o1JPT^cg2
+!i122 4
+l76
+L54 28
+Va5ClDYec`9chO`Ne0M1NL2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eincrement_counter_4_bit
+Z17 w1694096010
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 14
+R0
+R8
+R9
+l0
+L37 1
+VzkzRJ[M0138g2DhD<>bhi3
+!s100 ^gP<YnkZ_A5>ob4lD8zKR0
+R10
+32
+Z20 !s110 1694096012
+!i10b 1
+Z21 !s108 1694096011.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 23 increment_counter_4_bit 0 22 zkzRJ[M0138g2DhD<>bhi3
+!i122 14
+l77
+L46 304
+VSQU;oIoS2aIEA7ggjIR2I3
+!s100 FX=`WlS2kOjT0;Ea79<g;2
+R10
+32
+R20
+!i10b 1
+R21
+R13
+R14
+!i113 1
+R15
+R16
+Eincrement_counter_4_bit_vhd_vec_tst
+Z22 w1694096009
+R5
+R6
+!i122 15
+R0
+Z23 8Waveform.vwf.vht
+Z24 FWaveform.vwf.vht
+l0
+L32 1
+V2>z_?[XEd2=?0d9U7m<?m1
+!s100 <bP2i^O=<UAE?5V`JM]]Y1
+R10
+32
+R20
+!i10b 1
+Z25 !s108 1694096012.000000
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Aincrement_counter_4_bit_arch
+R5
+R6
+Z28 DEx4 work 35 increment_counter_4_bit_vhd_vec_tst 0 22 2>z_?[XEd2=?0d9U7m<?m1
+!i122 15
+l49
+Z29 L34 46
+Z30 VAYjQ475Uz>j6Ia;?:n3`g0
+Z31 !s100 ZLcG:n0ZXgk6AM0k3^ihH2
+R10
+32
+R20
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R15
+R16

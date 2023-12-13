@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Clk_out",
+					"strict" : false
+				},
+				{
+					"name" : "clk_out_3",
+					"strict" : false
+				},
+				{
+					"name" : "Clk_selector[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_out_2",
+					"strict" : false
+				},
+				{
+					"name" : "Clk_selector[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_out_1",
+					"strict" : false
+				},
+				{
+					"name" : "clk_out_4",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

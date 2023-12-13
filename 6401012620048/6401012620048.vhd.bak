@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all; 
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity graph is
+    port (clk_in : in std_logic;
+            bt : in std_logic;
+            x : out std_logic := '1';
+            y : out std_logic	:= '0';
+            z : out std_logic := '0'
+    );
+
+end graph;
+
+architecture Behavioral of graph is 
+
+begin
+	process(clk_in)
+	begin
+	
+	end process;
+
+end Behavioral;

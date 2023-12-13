@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity clock_multiplexer is
+	port(
+			w : in std_logic_vector(3 downto 0);
+			s : in std_logic_vector(1 downto 0);
+			y : out std_logic);
+	end clock_multiplexer;
+
+architecture Behavioral of clock_multiplexer is
+begin
+		process (w,s)
+			begin
+				if s = "00" then
+						y <= w(0);
+				elsif s = "01" then
+						y <= w(1);
+				elsif s = "10" then
+						y <= w(2);
+				elsif s = "11" then
+						y <= w(3);
+				else
+						y <= '-';
+				end if;
+		end process;
+end Behavioral;
+		

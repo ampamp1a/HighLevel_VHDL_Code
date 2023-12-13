@@ -1,0 +1,16 @@
+|clock_multiplexer
+clk_out_1 => Clk_out.DATAB
+clk_out_2 => Clk_out.DATAB
+clk_out_3 => Clk_out.DATAB
+clk_out_4 => Clk_out.DATAA
+Clk_selector[0] => Equal0.IN1
+Clk_selector[0] => Equal1.IN1
+Clk_selector[0] => Equal2.IN0
+Clk_selector[0] => Equal3.IN1
+Clk_selector[1] => Equal0.IN0
+Clk_selector[1] => Equal1.IN0
+Clk_selector[1] => Equal2.IN1
+Clk_selector[1] => Equal3.IN0
+Clk_out << Clk_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

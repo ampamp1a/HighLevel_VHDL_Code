@@ -1,0 +1,51 @@
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.STD_LOGIC_ARITH.all;
+use ieee.std_logic_unsigned.all; 
+
+entity Test_divide_IP is
+		Port ( clk_i  : in  std_logic;	-- system clock
+             rst_i  : in  std_logic; 	-- synchronous reset, active-high
+				 data 	: in  STD_LOGIC_VECTOR (12 downto 0);
+				 ascii_sign_digit : out  STD_LOGIC_VECTOR (7 downto 0);
+				 data_next_digit 	: out  STD_LOGIC_VECTOR (11 downto 0);
+				 binary_digit_3 : out STD_LOGIC_VECTOR (11 downto 0)
+				 
+				 );
+					  
+end Test_divide_IP;
+
+architecture Behavioral of Test_divide_IP is
+
+signal select_bit : STD_LOGIC;
+signal process_data : STD_LOGIC_VECTOR (11 downto 0) :="000000000000";
+
+	begin
+		process(clk_i, rst_i)
+			begin
+					
+				if (clk_i'event and clk_i='1') then 
+				select_bit <= data(12);
+					if (select_bit = '0') then
+						process_data <= data(11 downto 0); ------------
+						ascii_sign_digit <= "00000000";
+					else
+						int_process_data <= (not(data(11 downto 0)) + 1))); ------------
+						ascii_sign_digit <= "11111111";
+
+				end if;
+				
+				
+		end if;
+		end process;
+
+		pll:work.divide_digit_3 port map(
+		clock => clk_i,
+		aclr => rst_i,
+		denom		<= x"3E8";-- divide by 1000 
+		numer		<= process_data;
+		quotient	<= binary_digit_3;
+		remain	<= data_next_digit
+		);
+		
+end Behavioral;

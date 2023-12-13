@@ -1,0 +1,21 @@
+
+State Machine - |UART_controller2|UART_TX:UartTx|state
+Name state.WAIT_FOR_SEND_STOP_BIT state.COUNT_BIT state.SENDING_BITS state.SET_FOR_TX_START 
+state.SET_FOR_TX_START 0 0 0 0 
+state.SENDING_BITS 0 0 1 1 
+state.COUNT_BIT 0 1 0 1 
+state.WAIT_FOR_SEND_STOP_BIT 1 0 0 1 
+
+State Machine - |UART_controller2|UART_RX:UartRx|get_state
+Name get_state.d get_state.c get_state.b get_state.a 
+get_state.a 0 0 0 0 
+get_state.b 0 0 1 1 
+get_state.c 0 1 0 1 
+get_state.d 1 0 0 1 
+
+State Machine - |UART_controller2|UART_RX:UartRx|state
+Name state.WAIT_FOR_STOP_BIT state.RECEIVE_BITS state.WAIT_HALF_BIT state.WAIT_FOR_RX_START 
+state.WAIT_FOR_RX_START 0 0 0 0 
+state.WAIT_HALF_BIT 0 0 1 1 
+state.RECEIVE_BITS 0 1 0 1 
+state.WAIT_FOR_STOP_BIT 1 0 0 1 

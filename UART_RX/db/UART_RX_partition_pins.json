@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "req_o",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_o[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sampling_rx",
+					"strict" : false
+				},
+				{
+					"name" : "clk_i",
+					"strict" : false
+				},
+				{
+					"name" : "rx",
+					"strict" : false
+				},
+				{
+					"name" : "rst_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

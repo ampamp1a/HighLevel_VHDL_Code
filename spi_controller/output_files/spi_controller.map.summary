@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Sep 18 09:13:32 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : spi_controller
+Top-level Entity Name : spi_controller
+Family : MAX 10
+Total logic elements : 58
+    Total combinational functions : 39
+    Dedicated logic registers : 46
+Total registers : 46
+Total pins : 24
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

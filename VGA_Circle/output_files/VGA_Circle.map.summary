@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Oct 06 13:46:59 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : VGA_Circle
+Top-level Entity Name : VGA_Circle
+Family : MAX 10
+Total logic elements : 705
+    Total combinational functions : 695
+    Dedicated logic registers : 155
+Total registers : 155
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 30
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

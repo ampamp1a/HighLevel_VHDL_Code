@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Req_O",
+					"strict" : false
+				},
+				{
+					"name" : "Sampling_Rx",
+					"strict" : false
+				},
+				{
+					"name" : "Tx",
+					"strict" : false
+				},
+				{
+					"name" : "Clk_I",
+					"strict" : false
+				},
+				{
+					"name" : "Rx",
+					"strict" : false
+				},
+				{
+					"name" : "Rst_I",
+					"strict" : false
+				},
+				{
+					"name" : "Send_data",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

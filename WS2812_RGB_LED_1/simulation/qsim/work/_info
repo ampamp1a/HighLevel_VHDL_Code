@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/all/3rdyear/term1/High level Design/VHDL_Code/WS2812_RGB_LED_1/simulation/qsim
+Ews2812_rgb_led_1
+Z1 w1691287144
+Z2 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
+Z3 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 86
+R0
+Z10 8WS2812_RGB_LED_1.vho
+Z11 FWS2812_RGB_LED_1.vho
+l0
+L37 1
+Vm]2n^iViBe>d6FM068o<a1
+!s100 hAlWIj3cXYm2VBzU_UdfA1
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1691287145
+!i10b 1
+Z14 !s108 1691287145.000000
+Z15 !s90 -work|work|WS2812_RGB_LED_1.vho|
+Z16 !s107 WS2812_RGB_LED_1.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 16 ws2812_rgb_led_1 0 22 m]2n^iViBe>d6FM068o<a1
+!i122 86
+l227
+L46 3064
+V4G:JHOJJhQhbZo0k:8P1X3
+!s100 AHkIR[TRN[Ad@XBKem0em2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Ews2812_rgb_led_1_vhd_vec_tst
+Z19 w1691287143
+R7
+R8
+!i122 87
+R0
+Z20 8Waveform4.vwf.vht
+Z21 FWaveform4.vwf.vht
+l0
+L32 1
+V`:VzHCBoJ;@GgRD1n@Oj21
+!s100 ZIJVOAk8meAYBV7<RYYkn3
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform4.vwf.vht|
+Z23 !s107 Waveform4.vwf.vht|
+!i113 1
+R17
+R18
+Aws2812_rgb_led_1_arch
+R7
+R8
+Z24 DEx4 work 28 ws2812_rgb_led_1_vhd_vec_tst 0 22 `:VzHCBoJ;@GgRD1n@Oj21
+!i122 87
+l49
+Z25 L34 71
+VP;I?3MhlUk1m3QScNOA_Y1
+!s100 d]AAOX<S8aZc5=>dMz4<d3
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18

@@ -1,0 +1,14 @@
+
+State Machine - |Mini_project_Ball|state
+Name state.Vertical_sync_S state.Vertical_sync_P_Q state.Horizontal_sync 
+state.Horizontal_sync 0 0 0 
+state.Vertical_sync_P_Q 0 1 1 
+state.Vertical_sync_S 1 0 1 
+
+State Machine - |Mini_project_Ball|pmod_accelerometer_adxl345:pmod_accelerometer|state
+Name state.output_result state.read_data state.configure state.pause state.start 
+state.start 0 0 0 0 0 
+state.pause 0 0 0 1 1 
+state.configure 0 0 1 0 1 
+state.read_data 0 1 0 0 1 
+state.output_result 1 0 0 0 1 

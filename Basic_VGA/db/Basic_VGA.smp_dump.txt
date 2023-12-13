@@ -1,0 +1,6 @@
+
+State Machine - |Basic_VGA|state
+Name state.Vertical_sync_S state.Vertical_sync_P_Q state.Horizontal_sync 
+state.Horizontal_sync 0 0 0 
+state.Vertical_sync_P_Q 0 1 1 
+state.Vertical_sync_S 1 0 1 

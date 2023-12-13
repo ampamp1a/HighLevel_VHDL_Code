@@ -1,0 +1,17 @@
+|increment_counter_4_bit
+clk_in => Toggle_output.CLK
+clk_in => logic_out_1~reg0.CLK
+clk_in => counter_value[0].CLK
+clk_in => counter_value[1].CLK
+clk_in => counter_value[2].CLK
+clk_in => counter_value[3].CLK
+reset => counter_value.OUTPUTSELECT
+reset => counter_value.OUTPUTSELECT
+reset => counter_value.OUTPUTSELECT
+reset => counter_value.OUTPUTSELECT
+reset => Toggle_output.ENA
+reset => logic_out_1~reg0.ENA
+logic_out_1 <= logic_out_1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_out_2 <= Toggle_output.DB_MAX_OUTPUT_PORT_TYPE
+
+

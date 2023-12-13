@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DATA",
+					"strict" : false
+				},
+				{
+					"name" : "PB",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST_N",
+					"strict" : false
+				},
+				{
+					"name" : "LED_Display[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_Display[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

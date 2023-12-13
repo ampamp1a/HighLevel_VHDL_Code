@@ -1,0 +1,7 @@
+
+State Machine - |UART_TX|state
+Name state.WAIT_FOR_SEND_STOP_BIT state.SENDING_BITS state.SEND_START_BIT state.WAIT_FOR_TX_START 
+state.WAIT_FOR_TX_START 0 0 0 0 
+state.SEND_START_BIT 0 0 1 1 
+state.SENDING_BITS 0 1 0 1 
+state.WAIT_FOR_SEND_STOP_BIT 1 0 0 1 
